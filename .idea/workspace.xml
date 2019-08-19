@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc1d01d-e438-488e-be8c-2a9d5044973f" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Test/Test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Test/Test2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Task/GiveFlowTask.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Task/NewUserTask.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Task/PullUserTask.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/swoole.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/swoole.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ini/flow.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ini/mysql.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ini/mysql.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ini/service.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ini/service.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ini/supplier.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/easyswoole" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/easyswoole" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/php-parse" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/php-parse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyswoole.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +35,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/Utility/JwtAuth.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Hotel/V2/Index.php" />
         <option value="$PROJECT_DIR$/App/Validate/HotelOrder.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Router.php" />
@@ -120,6 +123,7 @@
         <option value="$PROJECT_DIR$/ini/mysql.ini" />
         <option value="$PROJECT_DIR$/Log/log.log" />
         <option value="$PROJECT_DIR$/Log/swoole.log" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -135,7 +139,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -233,6 +237,7 @@
       <workItem from="1565331357470" duration="12251000" />
       <workItem from="1565575321961" duration="1096000" />
       <workItem from="1566207556649" duration="2493000" />
+      <workItem from="1566224073784" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1563848552278</created>
@@ -322,12 +327,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271393000" />
+    <option name="totallyTimeSpent" value="271695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21831736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -335,7 +340,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32865733" />
       <window_info anchor="right" id="Structure" order="4" sideWeight="0.50051284" side_tool="true" weight="0.32960597" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32830188" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,19 +356,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21614583" />
       <window_info anchor="right" id="Structure" order="4" sideWeight="0.50051284" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923076" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4994872" weight="0.32960597" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923076" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -386,7 +391,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Model/Test/AccountModel.php" />
     <entry file="file://$PROJECT_DIR$/App/Service/SupplierService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -471,22 +475,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
           <caret line="135" column="74" selection-start-line="135" selection-start-column="74" selection-end-line="135" selection-end-column="74" />
-          <folding>
-            <element signature="e#114#147#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Task/NewUserTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Task/PullUserTask.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Task/NewUserTask.php" />
+    <entry file="file://$PROJECT_DIR$/App/Task/PullUserTask.php" />
     <entry file="file://$PROJECT_DIR$/App/Task/Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -524,29 +517,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#130#157#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Task/GiveFlowTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#114#141#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ini/supplier.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Task/GiveFlowTask.php" />
+    <entry file="file://$PROJECT_DIR$/ini/supplier.ini" />
     <entry file="file://$PROJECT_DIR$/App/Task/EmailTask.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
@@ -554,13 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ini/flow.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="9" selection-start-line="2" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ini/flow.ini" />
     <entry file="file://$PROJECT_DIR$/ini/msg.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -689,6 +658,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Model/HotelOrderSubModel.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
