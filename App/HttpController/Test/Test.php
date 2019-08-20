@@ -111,37 +111,7 @@ class Test extends Controller
         $this->response()->write('执行并发任务成功');
     }
 
-    public function login()
-    {
-        $name = $this->request()->getRequestParam('name');
-        $pwd = $this->request()->getRequestParam('pwd');
 
-
-
-        $payload=[
-            'iss' => "http://easyswoole.test", //签发者
-            'iat' => $_SERVER['REQUEST_TIME'], //什么时候签发的
-            'exp' => $_SERVER['REQUEST_TIME'] + 7200, //过期时间
-            'uid'=>1111
-        ];
-        $key = '1241245EEwq#12';
-
-        $token = JwtAuth::encode($payload,$key);
-
-        return $this->response()->write($token);
-
-
-    }
-
-    public function verify()
-    {
-        $str = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJTSEEyNTYifQ.eyJpc3MiOiJodHRwOlwvXC9lYXN5c3dvb2xlLnRlc3QiLCJpYXQiOjE1NjM5NTg2MDYsImV4cCI6MTU2Mzk2NTgwNiwidWlkIjoxMTExfQ.0f289f57dea6ba1a20e44f9c3e85605c223ad9a2a2943e1bad37822cfac0807e';
-        $key = '1241245EEwq#12';
-
-        $res = JwtAuth::decode($str,$key);
-        return $this->response()->write(json_encode($res));
-
-    }
 
 
     public function testRedis()

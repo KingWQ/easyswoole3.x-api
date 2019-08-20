@@ -21,6 +21,7 @@ class Index extends Base
     public function placeOrder()
     {
         $data = $this->request()->getParsedBody();
+
         $validate = new HotelValidate();
         if (!$validate->scene('placeOrder')->check($data)) {
             return $this->writeJson(Status::CODE_BAD_REQUEST, [],$validate->getError());

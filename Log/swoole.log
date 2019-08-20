@@ -1,0 +1,180 @@
+[2019-08-20 18:36:14 *4349.1]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#1[pid=4349] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 *4354.6]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#6[pid=4354] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 *4352.4]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 *4348.0]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#4[pid=4352] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#0[pid=4348] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 *4353.5]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#5[pid=4353] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 *4351.3]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#3[pid=4351] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 *4355.7]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 *4350.2]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#7[pid=4355] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:14 $4337.0]	WARNING	swManager_check_exit_status: worker#2[pid=4350] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 *4385.1]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#1[pid=4385] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 *4410.6]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#6[pid=4410] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 *4415.4]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 *4416.0]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#4[pid=4415] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 *4420.2]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#0[pid=4416] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#2[pid=4420] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 *4417.5]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 *4419.7]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 *4418.3]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#5[pid=4417] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#3[pid=4418] abnormal exit, status=255, signal=0
+[2019-08-20 18:36:44 $4337.0]	WARNING	swManager_check_exit_status: worker#7[pid=4419] abnormal exit, status=255, signal=0
+[2019-08-20 19:02:06 *5711.7]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to ifreeadm_demo@47.112.118.53 at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection timed out in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\Abs in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php on line 119
+[2019-08-20 19:02:06 $5693.0]	WARNING	swManager_check_exit_status: worker#7[pid=5711] abnormal exit, status=255, signal=0
+[2019-08-20 19:24:09 *6872.1]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'App\HttpController\Test\HttpClient' not found in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php on line 25
+[2019-08-20 19:24:09 $6860.0]	WARNING	swManager_check_exit_status: worker#1[pid=6872] abnormal exit, status=255, signal=0
+[2019-08-20 19:28:45 *7164.1]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method EasySwoole\HttpClient\HttpClient::exec() in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php on line 28
+[2019-08-20 19:28:45 $7152.0]	WARNING	swManager_check_exit_status: worker#1[pid=7164] abnormal exit, status=255, signal=0

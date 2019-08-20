@@ -1,0 +1,161 @@
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:14][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 18:36:44][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to @ at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Unknown server error in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\AbstractPool->unsetObj(Object at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 19:02:06][DEBUG][ERROR] : [Uncaught EasySwoole\Mysqli\Exceptions\ConnectFail: connect to ifreeadm_demo@47.112.118.53 at port 3306 fail: 2002 SQLSTATE[HY000] [2002] Connection timed out in /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php:119
+Stack trace:
+#0 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#1 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#2 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(117): EasySwoole\Mysqli\Mysqli->connect()
+#3 /home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php(148): EasySwoole\Mysqli\Mysqli->connect()
+#4 /home/www/apiEasyswoole/App/Utility/Pool/MysqlObject.php(21): EasySwoole\Mysqli\Mysqli->getMysqlClient()
+#5 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(137): App\Utility\Pool\MysqlObject->gc()
+#6 /home/www/apiEasyswoole/vendor/easyswoole/component/src/Pool/AbstractPool.php(164): EasySwoole\Component\Pool\Abs at file:/home/www/apiEasyswoole/vendor/easyswoole/mysqli/src/Mysqli.php line:119]
+[2019-08-20 19:24:09][DEBUG][ERROR] : [Uncaught Error: Class 'App\HttpController\Test\HttpClient' not found in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php:25
+Stack trace:
+#0 {main}
+  thrown at file:/home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php line:25]
+[2019-08-20 19:28:45][DEBUG][ERROR] : [Uncaught Error: Call to undefined method EasySwoole\HttpClient\HttpClient::exec() in /home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php:28
+Stack trace:
+#0 {main}
+  thrown at file:/home/www/apiEasyswoole/App/HttpController/Test/CorouHttpTest.php line:28]

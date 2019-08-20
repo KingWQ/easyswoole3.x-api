@@ -13,10 +13,7 @@ use EasySwoole\Validate\Validate;
 
 class Index extends Base
 {
-    public function index()
-    {
-
-    }
+    public function index(){}
 
     public function placeOrder()
     {
