@@ -17,20 +17,40 @@ class CorouHttpTest extends Controller
         // TODO: Implement index() method.
     }
 
+    /**
+     * @note 协程demo
+     * @result 执行顺序是
+     * begin
+     * start1
+     * start2
+     * end
+     * ok1
+     * ok2
+     */
     public function demo()
     {
         echo "begin\n";
 
         $url = "https://www.easyswoole.com";
         go(function () use($url){
-            $client = new HttpClient();
-            $client->setUrl($url);
-            $client->exec();
+            echo "start1 \n";
 
-            echo "request ok \n";
+            $client = new HttpClient($url);
+            $client->get();
+
+            echo " ok1 \n";
         });
 
-        echo "start http\n";
+        go(function () use($url){
+            echo "start2 \n";
+
+            $client = new HttpClient($url);
+            $client->get();
+
+            echo " ok2 \n";
+        });
+
+        echo "end \n";
 
         return;
     }
