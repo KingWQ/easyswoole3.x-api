@@ -8,6 +8,7 @@
 namespace App\HttpController\Test;
 
 use EasySwoole\Http\AbstractInterface\Controller;
+use App\Utility\Pool\RedisPool;
 
 class RedisPoolTest extends Controller
 {
@@ -18,6 +19,9 @@ class RedisPoolTest extends Controller
 
     public function demo()
     {
-
+        $redis = RedisPool::defer();
+        $redis->set('key','swoole');
+        $data = $redis->get('key');
+        $this->response()->write($data);
     }
 }

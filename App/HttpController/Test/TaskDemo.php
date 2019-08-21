@@ -15,7 +15,7 @@ use EasySwoole\EasySwoole\Swoole\Task\TaskManager;
 use EasySwoole\Http\AbstractInterface\Controller;
 use App\Logic\HotelLogic;
 
-class Test2 extends Controller
+class TaskDemo extends Controller
 {
     function index()
     {
